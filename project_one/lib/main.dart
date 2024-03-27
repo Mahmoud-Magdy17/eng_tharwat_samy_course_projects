@@ -13,11 +13,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
-        MyHomePage.routName:(context) =>  MyHomePage(),
+        MyHomePage.routName:(context) =>  const MyHomePage(),
       },
       debugShowCheckedModeBanner: false,
       title: 'Cipher',
-      home: MyHomePage(),
+      home: const MyHomePage(),
     );
   }
 }

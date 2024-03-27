@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class MyHomePage extends StatelessWidget {
   static const String routName = "MyHomePage";
-   MyHomePage({super.key});
+   const MyHomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -24,24 +23,24 @@ class MyHomePage extends StatelessWidget {
             textAlign: TextAlign.center,
             
           ),
-          SizedBox(
+          const SizedBox(
             height: 16,
           ),
-          Text(
+          const Text(
             'Make Your OWN Summit',
             style: TextStyle(color: Color(0xffEFE917)),
           ),
           Column(
             children: [
-              SizedBox(
+              const SizedBox(
                 height: 140,
-              ),Container(
+              ),SizedBox(
             width: double.infinity,
             height: 60,
             child: MaterialButton(
               onPressed: () {},
-              child: Text("Open Application"),
-              color: Color(0xffEEE917),
+              color: const Color(0xffEEE917),
+              child: const Text("Open Application"),
             ),
           )
         
