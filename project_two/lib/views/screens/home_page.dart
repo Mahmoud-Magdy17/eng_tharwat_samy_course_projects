@@ -45,10 +45,15 @@ class MyHomePage extends StatelessWidget {
             icon: Icons.phone,
             text: '(+20) 1096 632 895',
           ),
-          DataLabel(
-            icon: Icons.mail,
-            text: 'MahmoudMagdy176203@gmail.com',
-          ),
+          Card(
+            color: secondryColor,
+            margin:EdgeInsets.symmetric(horizontal: 13),
+            child: ListTile(
+              leading: Icon(Icons.mail,color: mainColor,),
+              title: Text('MahmoudMagdy176203@gmail.com',style: TextStyle(fontSize: 14),),
+            ),
+          )
+          
         ],
       ),
     );

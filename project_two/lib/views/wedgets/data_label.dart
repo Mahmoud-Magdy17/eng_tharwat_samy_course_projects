@@ -30,6 +30,7 @@ class DataLabel extends StatelessWidget {
             ),
             child: Icon(
               icon,
+              color: mainColor,
             ),
           ),
           Text(
