@@ -1,6 +1,7 @@
 // import 'dart:ffi';
 
 import 'package:flutter/material.dart';
+import 'package:project_two/models/colors.dart';
 
 class DataLabel extends StatelessWidget {
   final IconData icon;
@@ -15,10 +16,12 @@ class DataLabel extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       // padding: EdgeInsets.all(16),
-      margin: EdgeInsets.symmetric(horizontal: 12,vertical: 8),
+      margin: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
       height: 60,
       decoration: BoxDecoration(
-          color: Colors.white, borderRadius: BorderRadius.circular(16)),
+        color: secondryColor,
+        borderRadius: BorderRadius.circular(16),
+      ),
       child: Row(
         children: [
           Padding(

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project_two/models/colors.dart';
 
 class CircleImage extends StatelessWidget {
   final String myImage;
@@ -7,7 +8,7 @@ class CircleImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CircleAvatar(
-      backgroundColor: Colors.white,
+      backgroundColor: secondryColor,
       radius: 90,
       child: CircleAvatar(
         radius: 87,
