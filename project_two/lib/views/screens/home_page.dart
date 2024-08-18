@@ -30,7 +30,7 @@ class MyHomePage extends StatelessWidget {
             'Flutter Developer',
             style: TextStyle(
               fontSize: 14,
-              color:secondryColor,
+              color: secondryColor,
               fontWeight: FontWeight.w300,
               fontFamily: 'IBM',
             ),
@@ -47,13 +47,18 @@ class MyHomePage extends StatelessWidget {
           ),
           Card(
             color: secondryColor,
-            margin:EdgeInsets.symmetric(horizontal: 13),
+            margin: EdgeInsets.symmetric(horizontal: 13),
             child: ListTile(
-              leading: Icon(Icons.mail,color: mainColor,),
-              title: Text('MahmoudMagdy176203@gmail.com',style: TextStyle(fontSize: 14),),
+              leading: Icon(
+                Icons.mail,
+                color: mainColor,
+              ),
+              title: Text(
+                'MahmoudMagdy176203@gmail.com',
+                style: TextStyle(fontSize: 14),
+              ),
             ),
           )
-          
         ],
       ),
     );
