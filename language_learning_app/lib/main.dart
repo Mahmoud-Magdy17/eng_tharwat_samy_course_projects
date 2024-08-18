@@ -37,7 +37,7 @@ class Test extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(child: 
-      ElevatedButton.icon(onPressed: (){}, icon: Icon(Icons.abc), label: Text('hiii')),),
+      ElevatedButton.icon(onPressed: (){}, icon: const Icon(Icons.abc), label: const Text('hiii')),),
     );
   }
 }
